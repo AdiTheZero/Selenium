@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-18T13:22:20 IST" name="Default suite" finished-at="2024-06-18T13:22:50 IST" duration-ms="30050">
+    <groups>
+    </groups>
+    <test started-at="2024-06-18T13:22:20 IST" name="Default test" finished-at="2024-06-18T13:22:50 IST" duration-ms="30050">
+      <class name="TestCases.Testcases">
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCases.Testcases@74e28667]" started-at="2024-06-18T13:22:21 IST" name="start" finished-at="2024-06-18T13:22:32 IST" duration-ms="11374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="loginTest()[pri:0, instance:TestCases.Testcases@74e28667]" started-at="2024-06-18T13:22:32 IST" name="loginTest" finished-at="2024-06-18T13:22:34 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="addTOcartTest()[pri:0, instance:TestCases.Testcases@74e28667]" started-at="2024-06-18T13:22:34 IST" name="addTOcartTest" finished-at="2024-06-18T13:22:40 IST" depends-on-methods="TestCases.Testcases.loginTest" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTOcartTest -->
+        <test-method signature="buyDetialsTest()[pri:0, instance:TestCases.Testcases@74e28667]" started-at="2024-06-18T13:22:40 IST" name="buyDetialsTest" finished-at="2024-06-18T13:22:47 IST" depends-on-methods="TestCases.Testcases.addTOcartTest" duration-ms="6999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyDetialsTest -->
+        <test-method signature="placeOrderPage()[pri:0, instance:TestCases.Testcases@74e28667]" started-at="2024-06-18T13:22:47 IST" name="placeOrderPage" finished-at="2024-06-18T13:22:50 IST" depends-on-methods="TestCases.Testcases.buyDetialsTest" duration-ms="3458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderPage -->
+        <test-method is-config="true" signature="end()[pri:0, instance:TestCases.Testcases@74e28667]" started-at="2024-06-18T13:22:50 IST" name="end" finished-at="2024-06-18T13:22:50 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- TestCases.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
